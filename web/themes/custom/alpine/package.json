@@ -2,9 +2,9 @@
   "dependencies": {},
   "devDependencies": {
     "install": "^0.13.0",
+    "prettier-plugin-twig-melody": "^0.4.6",
     "tailwindcss": "^3.4.1"
   },
-
   "scripts": {
     "build": "bunx tailwindcss build -i ./css/input.css -o ./css/output.css",
     "watch": "bunx tailwindcss -i ./css/input.css -o ./css/output.css --watch"
