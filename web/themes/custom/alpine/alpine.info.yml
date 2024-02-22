@@ -2,7 +2,7 @@ name: Alpine Theme
 type: theme
 description: "Un theme custom reprenant le style de la marque Alpine."
 core_version_requirement: ^9 || ^10
-base theme: stark
+base theme: stable
 libraries:
   - alpine/global-styling
   - alpine/global-scripts
