@@ -2,4 +2,4 @@ global-styling:
   version: 1.x
   css:
     component:
-      css/style.css: {}
+      css/output.css: {}

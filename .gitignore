@@ -49,4 +49,4 @@
 /drupal.phar
 /drupal
 
-/node_modules
+/web/themes/custom/alpine/node_modules
