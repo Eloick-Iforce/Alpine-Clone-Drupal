@@ -602,6 +602,30 @@ video {
   position: sticky;
 }
 
+.left-10 {
+  left: 2.5rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.ml-16 {
+  margin-left: 4rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
 .block {
   display: block;
 }
@@ -630,8 +654,20 @@ video {
   display: none;
 }
 
+.h-2\/3 {
+  height: 66.666667%;
+}
+
 .h-auto {
   height: auto;
+}
+
+.w-1\/3 {
+  width: 33.333333%;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
 }
 
 .w-\[60px\] {
@@ -646,8 +682,20 @@ video {
   resize: both;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -658,13 +706,83 @@ video {
   gap: 2rem;
 }
 
+.border {
+  border-width: 1px;
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
 .bg-\[\#1c1c1c\] {
   --tw-bg-opacity: 1;
   background-color: rgb(28 28 28 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#f2f2f2\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 242 242 / var(--tw-bg-opacity));
+}
+
+.bg-hero {
+  background-image: url('/sites/default/files/inline-images/c08748122b.png');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-bottom {
+  background-position: bottom;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
 .p-8 {
   padding: 2rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-light {
+  font-weight: 300;
 }
 
 .text-white {
@@ -686,6 +804,34 @@ video {
 
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+@font-face {
+  font-family: "Alpine";
+
+  src: url("../fonts/AlpineNewAlps-Light.woff2") format("woff2");
+
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Alpine";
+
+  src: url("../fonts/AlpineNewAlps-Regular.woff2") format("woff2");
+
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Alpine";
+
+  src: url("../fonts/AlpineNewAlps-Semibold.woff2") format("woff2");
+
+  font-weight: 700;
+}
+
+* {
+  font-family: "Alpine", sans-serif;
 }
 
 .hover\:font-bold:hover {
